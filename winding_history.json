@@ -1,0 +1,53 @@
+{
+  "schema": "MemoryMatrix_WindingHistory_v3.1",
+  "timestamp": "2026-06-25T10:38:48.189707+00:00",
+  "omega_gauge": 1.5,
+  "channels": {
+    "control_cw": {
+      "raw_winding": -1.0,
+      "logic_state": "UNIT_NEG",
+      "gate_label": "\u03c3\u2081\u207b\u00b9",
+      "gate_symbol": "B1_inv",
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "physical_meaning": "Single negative vortex wrap (W\u2248\u22121) \u2014 CCW phase \u22122\u03c0 via \u03c3\u2081\u207b\u00b9 braid"
+    },
+    "control_ccw": {
+      "raw_winding": 1.0,
+      "logic_state": "UNIT_POS",
+      "gate_label": "\u03c3\u2081",
+      "gate_symbol": "B1",
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "physical_meaning": "Single positive vortex wrap (W\u2248+1) \u2014 CW phase +2\u03c0 via \u03c3\u2081 braid"
+    },
+    "coupled_cw": {
+      "raw_winding": -1.0,
+      "logic_state": "UNIT_NEG",
+      "gate_label": "\u03c3\u2081\u207b\u00b9",
+      "gate_symbol": "B1_inv",
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "physical_meaning": "Single negative vortex wrap (W\u2248\u22121) \u2014 CCW phase \u22122\u03c0 via \u03c3\u2081\u207b\u00b9 braid"
+    },
+    "coupled_ccw": {
+      "raw_winding": 1.0,
+      "logic_state": "UNIT_POS",
+      "gate_label": "\u03c3\u2081",
+      "gate_symbol": "B1",
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "physical_meaning": "Single positive vortex wrap (W\u2248+1) \u2014 CW phase +2\u03c0 via \u03c3\u2081 braid"
+    }
+  },
+  "field_metrics": {
+    "control_l2_diff": 0.0004029118834463672,
+    "coupled_l2_diff": 0.0004029118834463672,
+    "path_dependence_ratio": 1.0
+  },
+  "verdict": {
+    "path_dependent": false,
+    "non_abelian_detected": "False",
+    "gate_pair": "\u03c3\u2081\u207b\u00b9 \u2297 \u03c3\u2081"
+  }
+}

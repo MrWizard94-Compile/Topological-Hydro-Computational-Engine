@@ -1,0 +1,12 @@
+# Python bytecode and duplicate/backup artifacts are not source of record.
+__pycache__/
+*.py[cod]
+files.zip
+*.bak
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/

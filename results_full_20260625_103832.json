@@ -1,0 +1,92 @@
+{
+  "run_mode": "full",
+  "config": {
+    "Lx": 80,
+    "Ly": 63,
+    "n_nodes": 5040,
+    "omega_gauge": 1.5,
+    "lattice_type": "square",
+    "braid_radius": 0.18,
+    "n_braid_steps": 64
+  },
+  "control": {
+    "cw": {
+      "raw_winding": -1.0,
+      "path_direction": "CW",
+      "regime": "control",
+      "omega_gauge": 0.0,
+      "logic_state": "UNIT_NEG",
+      "logic_state_label": "UNIT_NEG     |\u22121\u27e9",
+      "nearest_integer": -1,
+      "integer_residual": 0.0,
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "gate_label": "\u03c3\u2081\u207b\u00b9",
+      "gate_symbol": "B1_inv",
+      "gate_description": "CCW half-braid: e^{-i\u03c0/8}",
+      "path_dependence_flag": false,
+      "asymmetry": 0.0,
+      "physical_meaning": "Single negative vortex wrap (W\u2248\u22121) \u2014 CCW phase \u22122\u03c0 via \u03c3\u2081\u207b\u00b9 braid"
+    },
+    "ccw": {
+      "raw_winding": 1.0,
+      "path_direction": "CCW",
+      "regime": "control",
+      "omega_gauge": 0.0,
+      "logic_state": "UNIT_POS",
+      "logic_state_label": "UNIT_POS     |+1\u27e9",
+      "nearest_integer": 1,
+      "integer_residual": 0.0,
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "gate_label": "\u03c3\u2081",
+      "gate_symbol": "B1",
+      "gate_description": "CW half-braid: e^{i\u03c0/8}",
+      "path_dependence_flag": false,
+      "asymmetry": 0.0,
+      "physical_meaning": "Single positive vortex wrap (W\u2248+1) \u2014 CW phase +2\u03c0 via \u03c3\u2081 braid"
+    },
+    "l2_diff": 0.00019176571329771326
+  },
+  "coupled": {
+    "cw": {
+      "raw_winding": -1.0,
+      "path_direction": "CW",
+      "regime": "coupled",
+      "omega_gauge": 1.5,
+      "logic_state": "UNIT_NEG",
+      "logic_state_label": "UNIT_NEG     |\u22121\u27e9",
+      "nearest_integer": -1,
+      "integer_residual": 0.0,
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "gate_label": "\u03c3\u2081\u207b\u00b9",
+      "gate_symbol": "B1_inv",
+      "gate_description": "CCW half-braid: e^{-i\u03c0/8}",
+      "path_dependence_flag": false,
+      "asymmetry": 0.0,
+      "physical_meaning": "Single negative vortex wrap (W\u2248\u22121) \u2014 CCW phase \u22122\u03c0 via \u03c3\u2081\u207b\u00b9 braid"
+    },
+    "ccw": {
+      "raw_winding": 1.0,
+      "path_direction": "CCW",
+      "regime": "coupled",
+      "omega_gauge": 1.5,
+      "logic_state": "UNIT_POS",
+      "logic_state_label": "UNIT_POS     |+1\u27e9",
+      "nearest_integer": 1,
+      "integer_residual": 0.0,
+      "is_fractional": false,
+      "is_non_abelian": "False",
+      "gate_label": "\u03c3\u2081",
+      "gate_symbol": "B1",
+      "gate_description": "CW half-braid: e^{i\u03c0/8}",
+      "path_dependence_flag": false,
+      "asymmetry": 0.0,
+      "physical_meaning": "Single positive vortex wrap (W\u2248+1) \u2014 CW phase +2\u03c0 via \u03c3\u2081 braid"
+    },
+    "l2_diff": 0.00019176571329771326
+  },
+  "path_dependence_ratio": 1.0,
+  "wall_time_s": 0.135
+}
